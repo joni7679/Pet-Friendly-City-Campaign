@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding-top: 0;
+  width: 100%;
+  background-color: #FCEFCB;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #fffaf0, #fdebd0);
+  color: #333;
+  padding-top: 60px;
+} /* body styling */
+
+.bg-custom-color {
+  background-color: #FCEFCB;
+} /* custom background class */
+
+.navbar {
+  background-color: #FAD59A;
+} /* navbar background */
+
+.navbar-brand, .nav-link {
+  color: #000000 !important;
+} /* navbar text color */
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #A86523 !important;
+} /* navbar hover effect */
+
+.card {
+  background-color: #FCEFCB;
+  border-radius: 10px;
+  border: none;
+} /* card styling */
+
+.form-control {
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #FAD59A;
+  border: 2px solid #000000;
+} /* form input styling */
+
+.form-label {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+} /* form label styling */
+
+.btn-success {
+  background-color: #FAD59A;
+  border-color: #FAD59A;
+  color: #000000;
+  font-weight: bold;
+} /* success button default */
+
+.btn-success:hover {
+  background-color: #000000;
+  border-color: #000000;
+  color: #fff;
+} /* success button hover */
+
+.hero-section {
+  background: url('https://cdn.pixabay.com/photo/2017/12/29/10/23/nature-3047194_1280.jpg');
+  background-color: #e76f51;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+} /* hero section background */
+
+.hero-section h1 {
+  color: #000;
+  font-size: 4rem;
+} /* hero heading */
+
+.hero-section p {
+  color: #000;
+  font-size: 1.5rem;
+} /* hero paragraph */
+
+.featured-pet-card {
+  background-color: #FCEFCB;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+} /* pet card styling */
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+} /* top image rounded corners */
+
+#footer {
+  background-color: #FAD59A;
+  padding: 20px 0;
+  text-align: center;
+} /* alternate footer (if used with ID) */
+
+#footer p {
+  margin: 0;
+  color: #000000;
+} /* paragraph inside footer */
+
+p a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+} /* paragraph anchor styling */
+
+p i {
+  margin-right: 5px;
+} /* paragraph icon spacing */
+
+.justify-text {
+  text-align: justify;
+} /* justified text */
+
+h1, h2 {
+  color: #a0522d;
+  font-weight: bold;
+} /* heading styles */
+
+.container {
+  max-width: 960px;
+  margin: auto;
+} /* container layout */
+
+.section {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+  transition: transform 0.2s ease;
+} /* section box style */
+
+.section:hover {
+  transform: scale(1.01);
+} /* section hover effect */
+
+ul li {
+  margin-bottom: 10px;
+} /* list item spacing */
+
+.team-img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #f4a261;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+} /* team image style */
+
+.team-img:hover {
+  transform: scale(1.05);
+} /* team image hover */
+
+.quote {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-left: 5px solid #007bff;
+  font-style: italic;
+  font-size: 1.25rem;
+  color: #333;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+} /* quote block style */
+
+.btn-primary {
+  background-color: #f4a261;
+  border: none;
+  transition: background-color 0.3s;
+} /* primary button */
+
+.btn-primary:hover {
+  background-color: #e76f51;
+} /* primary button hover */
+
+.header {
+  width: 100%;
+  background-color: #f4a261;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+} /* header styling */
+
+.header img {
+  height: 50px;
+} /* header logo size */
+
+.footer {
+  width: 100%;
+  background-color: #a0522d;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 0;
+} /* footer styling */
